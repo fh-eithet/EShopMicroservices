@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Domain", "Services
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{8D6331C5-72A6-DEFA-2B59-5F115C5D739E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks.Messaging", "BuildingBlocks\BuildingBlocks.Messaging\BuildingBlocks.Messaging.csproj", "{CFB299DC-C5BE-459B-B30C-B6C47738DA04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{8D6331C5-72A6-DEFA-2B59-5F115C5D739E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D6331C5-72A6-DEFA-2B59-5F115C5D739E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D6331C5-72A6-DEFA-2B59-5F115C5D739E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB299DC-C5BE-459B-B30C-B6C47738DA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB299DC-C5BE-459B-B30C-B6C47738DA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB299DC-C5BE-459B-B30C-B6C47738DA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB299DC-C5BE-459B-B30C-B6C47738DA04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{6E8AD615-B886-71E4-A850-80B639B79D24} = {183089D5-5338-437E-95C5-EABF0BFBC005}
 		{066FDE78-4996-BE3D-BC3E-8EB4D9C32329} = {183089D5-5338-437E-95C5-EABF0BFBC005}
 		{8D6331C5-72A6-DEFA-2B59-5F115C5D739E} = {183089D5-5338-437E-95C5-EABF0BFBC005}
+		{CFB299DC-C5BE-459B-B30C-B6C47738DA04} = {5643A6AB-6646-44C4-AD60-FB73DB97D558}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DD45588E-45BB-416C-B9AD-C16BB331EA91}
