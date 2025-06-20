@@ -1,8 +1,9 @@
-version: '3.8'
+version: '3.4'
+
 services:
   catalogdb:
     image: postgres
-      
+
   basketdb:
     image: postgres
 
@@ -30,8 +31,8 @@ services:
   discount.grpc:
     image: ${DOCKER_REGISTRY-}discountgrpc
     build:
-      context: Services/Discount/Discount.Grpc
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: Services/Discount/Discount.Grpc/Dockerfile
 
   ordering.api:
     image: ${DOCKER_REGISTRY-}orderingapi
@@ -39,8 +40,19 @@ services:
       context: .
       dockerfile: Services/Ordering/Ordering.API/Dockerfile
 
+  yarpapigateway:
+    image: ${DOCKER_REGISTRY-}yarpapigateway
+    build:
+      context: .
+      dockerfile: ApiGateways/YarpApiGateway/Dockerfile 
+
 volumes:
   postgres_catalog:
   postgres_basket:
+
+
+
+
+
 
 
